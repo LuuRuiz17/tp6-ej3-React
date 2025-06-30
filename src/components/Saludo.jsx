@@ -1,7 +1,7 @@
 const Saludo = ({msj}) => {
   return (
-    <div className="animate__animated animate__tada animate__infinite">
-      <h1 className="display-3 color-loop">Hello My Friend{msj}!</h1>
+    <div className="animate__animated animate__tada animate__infinite w-75">
+      <h1 className="display-4 color-loop text-center">Hello My Friend{msj}!</h1>
     </div>
   );
 };
