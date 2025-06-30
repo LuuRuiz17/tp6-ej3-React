@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#root {
+  min-height: 100vh;
+  background-color: black;
+}
+
+.container{
+  min-height: 100vh;
+}
+
+@keyframes cambiarColor {
+  0% {
+    color: rgb(254, 50, 84);
+  }
+  50% {
+    color: rgb(255, 117, 140);
+  }
+  100% {
+    color: pink;
+  }
+}
+
+.color-loop {
+  animation: cambiarColor 3s infinite;
+  font-size: 2rem;
+}
+
+.btn-mostrar-mensaje{
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  background-color: palevioletred;
+  border: groove pink 2px;
+}
+
+.btn-mostrar-mensaje:hover{
+  background-color: pink;
+  color: palevioletred;
+  border: groove palevioletred 2px;
+}
